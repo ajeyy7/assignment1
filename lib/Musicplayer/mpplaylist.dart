@@ -69,7 +69,9 @@ class Mpplaylist extends StatelessWidget {
                 color: Colors.black
               ),
             ),
-          )) , gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,mainAxisSpacing: 4,crossAxisSpacing: 4))
+          )) , gridDelegate: SliverGridDelegateWithFixedCrossAxisCount
+            (crossAxisCount: 2,
+              mainAxisSpacing: 4,crossAxisSpacing: 4),)
         ],
       )),
     );
